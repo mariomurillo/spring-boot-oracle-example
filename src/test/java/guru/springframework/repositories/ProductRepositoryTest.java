@@ -22,11 +22,6 @@ public class ProductRepositoryTest {
     @Autowired
     private ProductRepository productRepository;
 
-    @Before
-    public void setUp() throws Exception {
-
-    }
-
     @Test
     public void testPersistence() {
         //given
